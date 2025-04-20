@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: black;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.mx-auto{
+    margin: auto;
+
+}
+
+.button{
+    padding:18px 0px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor:pointer;
+    width: 60px;
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.593);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+}
+
+.flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flex-col{
+flex-direction: column;
+}
+.row{
+    margin: 8px 0px;
+}
+
+.row input{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    background-color:rgba(128, 128, 128, 0.253);
+    border: none;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 290px;
+    height: 80px;
+}
+
+button.last-col{
+    background-color: orange;
+}
